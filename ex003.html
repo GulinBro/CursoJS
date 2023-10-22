@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CursoJS</title>
+    <style>
+        body {
+
+            background-color: #eee;
+            color: #d1bb15;
+            font: normal 20pt Arial;    
+            text-align: center;
+            text-decoration: underline;
+            
+        }
+
+        span {
+            color: rgb(13, 13, 227);
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Curso <span>JS</span></h1>
+
+
+    <script>
+
+        var n1 = window.prompt('Digite um número: ');
+        var n2 = window.prompt('Digite outro número: ');
+   
+        window.alert('O primeiro número é: '+ n1 + ", e o segundo é: " + n2 + ".");
+
+        var s = n1 + n2;
+
+        window.alert('A soma entre os dois números é: ' + s);
+
+        // (number + number) adição
+        // (string + string) Concatenação
+        // window.prompt, mesmo recebendo inteiros, retorna string!
+        // Necessário fazer a conversão, tratamento dos dados.
+
+
+        var n3 = Number.parseInt(window.prompt('Digite um número: '));
+        var n4 = Number.parseInt(window.prompt('Digite outro número: '));
+   
+        window.alert('O primeiro número é: '+ n3 + ", e o segundo é: " + n4 + ".");
+
+        var s2 = n3 + n4;
+
+        window.alert('A soma entre os dois números é: ' + s2);
+
+        // A conversão pode ser forçada para diretamente o tipo de váriavel, porém você pode utilizar somnente a sintaxe "Number(n)", que vai analisar e decidir o tipo primitivo da variável. Como mostra abaixo:
+
+        var n5 = Number(window.prompt('Digite um número: ')); // Utilizando números decimais, váriavel float.
+        var n6 = Number(window.prompt('Digite outro número: '));
+   
+        window.alert('O primeiro número é: '+ n5 + ", e o segundo é: " + n6 + ".");
+
+        var s3 = n5 + n6;
+
+        window.alert(`A soma entre ${n5} e ${n6} é igual a ${s3}`); // Usando a nova formatação em strings
+
+        // Conceito voltado para String, String(n); ou n.toString();
+        // s.length quantos caracteres a string tem
+        //s.toUpperCase(); tudo para 'MAIÚSCULAS'
+        // stoLowerCase(); tudo para 'minúsculas'
+
+
+        
+        
+
+
+    </script>
+
+</body>
+</html>
