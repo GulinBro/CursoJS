@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: normal 18pt arial;
+}
+
+#calculadora {
+    text-align: center;
+    display: block;
+    margin: 300px auto;
+    border: 4px solid;
+    width: 400px;
+
+}
+
+
+#calculadora input {
+    font: normal 18pt arial;
+    width: 100px;
+}
+
