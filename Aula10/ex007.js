@@ -1,8 +1,8 @@
-var tn1 = document.getElementById('txtn1');
-var tn2 = document.querySelector('input#txtn2');
-var res = document.getElementById('res');
+var tn1 = document.getElementById('txtn1'); // Variavel recebendo dados do ID 
+var tn2 = document.querySelector('input#txtn2'); // Variavel recebendo dados do ID
+var res = document.getElementById('res'); // Variavel recebendo dados do ID 
 
-function somar(){
+function somar(){ // Função somar
 var n1 = Number(tn1.value);
 var n2 = Number(tn2.value);
 var s = n1 + n2;
