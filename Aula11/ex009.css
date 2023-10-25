@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#passaporte {
+    width: 400px;
+    height: 160px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 50px auto;
+    padding: 8px;
+    background-color: rgba(0, 0, 255, 0.807);
+    box-shadow: 2px 2px 2px;
+    border-radius: 16px;
+}
+
+#passaporte h1 {
+    text-decoration: underline ;
+}
+
+#passaporte input, p, h1{
+    margin: 5px;
+
+    border-radius: 5px;
+    
+}
+
+#passaporte input, button {
+    width: 110px ;
+}
+
+#bnt {
+    background-color: #333;
+    color: white;
+    transition: background 500ms ease;
+
+}
+
+#bnt:hover {
+    cursor: pointer;
+    background: #eee;
+    color: black;
+}
+
