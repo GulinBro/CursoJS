@@ -6,9 +6,9 @@ function verificapais(){
 
     res.innerHTML = `Você é do (a) ${local}.`
 
-        if(local != 'Brasil'){
-            res.innerHTML += `<p>Você é Estrangeiro</p>`
-         }else {
+        if(local == 'Brasil' || local == 'brasil'){
              res.innerHTML += `<p>Você é Brasileiro</p>`
+         }else{
+             res.innerHTML += `<p>Você é Estrangeiro</p>`
     }
 }
